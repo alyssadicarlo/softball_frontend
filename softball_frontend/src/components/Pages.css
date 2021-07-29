@@ -1,0 +1,56 @@
+.page-header, .post-header {
+    margin: 24px auto 20px;
+}
+
+.post-meta, .breadcrumbs {
+    color: rgba(255, 255, 255, 0.56);
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-title {
+    margin-bottom: 2px;
+    font-size: 40px;
+}
+
+.post-content {
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.breadcrumbs span {
+    padding: 5px;
+    background: linear-gradient( to bottom, var(--mainColor) 0%, var(--mainColor) 100% );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    text-decoration: none;
+    transition: background-size .2s;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.breadcrumbs span:hover {
+    background-size: 4px 50px;
+}
+
+.container {
+    line-height: 1.25;
+    margin: 10px auto;
+    color: #f8f8f2;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    table-layout: fixed;
+    background-color: #2e2e33;
+}
+
+.container .flex {
+    border: 1px solid #2e2e33;
+    padding: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: space-between;
+}

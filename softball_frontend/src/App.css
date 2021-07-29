@@ -1,0 +1,40 @@
+:root {
+    --primary: rgba(255, 255, 255, 0.84);
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+    font-size: 18px;
+    background-color: #1d1e20;
+}
+
+.main {
+    padding: 14px;
+    max-width: 720px;
+    margin: auto;
+}
+
+a, button, body, h1, h2, h3, h4, h5, h6 {
+    color: var(--primary);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section, table {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
